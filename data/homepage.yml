@@ -1,0 +1,221 @@
+head:
+  title: "Adam Kemberling's Data Science Portfolio"
+
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Adam Kemberling."
+  subtitle: "Quantitative Research Associate"
+  description: "Adam is responsible for the data preparation and visualizations for the <a target='_blank' href='https://adamkemberling.github.io/oisst_mainstays/R/markdown_reports/GOM_Seasonal_Update.html'>Gulf of Maine Seasonal Update</a>, a detailed look at how the ocean environment has been changing in recent years."
+  image:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+  imageMobile:
+    x: "img/showcase/data-science.gif"
+    _2x: "img/showcase/data-science.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Adam"
+    URL: "mailto:adamkemberling@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/adam-kemberling-630a5984/"
+
+    - icon: "github"
+      URL: "https://github.com/adamkemberling"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/KemberlingAdam"
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    <strong>I love creating tools that help reveal changes in the marine world.</strong> My passion is marine science and the dynamic relationships of marine food webs. When I am not visualizing patterns in marine life
+    or building software tools to explore climate change, I enjoy exploring the outdoors and enjoying good food with friends. 
+    </p>
+    <p class="lead">
+    <strong>My area of focus</strong> is using data science tools to communicate scientific discovery. 
+    I create value for companies by engineering data-driven messaging for their audiences and delivering a return-on-investment with reproducible workflow solutions. 
+    I enjoy building project pipelines, working with stakeholders, and making better decisions with data.
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.github.com/adamkemberling"
+  image:
+    x: "img/who-am-i/GMRI_headshot.jpeg"
+    _2x: "img/who-am-i/GMRI_headshot.jpeg"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "Over 5+ years of experience working with Nonprofit and public sector partners across the country. I design & develop data science products to help deliver effective decision making for natural resource managers and improve team capabilities by generating an expandable codebase."
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/in/adam-kemberling-630a5984/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "#"
+
+  items:
+    - title: "Quantitative Research Associate"
+      company: "Gulf of Maine Research Institute"
+      duration: "Nov 2019 - Present"
+
+    - title: "Fisheries Biologist III"
+      company: "Riverside Technology Inc."
+      duration: "Sept 2018 - Oct 2019"
+
+    - title: "Laboratory Technician"
+      company: "Gulf Coast Research Laboratory"
+      duration: "May 2018 - Sept 2018"
+
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Southern Mississippi"
+      year: "2015-2018"
+      degree: "Master of Coastal Science (MSc.)"
+
+    - university: "University of North Carolina at Wilmington"
+      year: "2010-2014"
+      degree: "Bachelor of Marine Biology (BSc.)"
+      
+    - university: "University of North Carolina at Wilmington"
+      year: "2010-2014"
+      degree: "Bachelor of Environmental Science (BSc.)"
+
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+  
+  enable_clients: false
+  clients:
+    - logo:
+        x: "img/clients/asgardia.png"
+        _2x: "img/clients/asgardia@2x.png"
+      alt: "Asgardia"
+
+    - logo:
+        x: "img/clients/earth-2.png"
+        _2x: "img/clients/earth-2@2x.png"
+      alt: "Earth 2.0"
+
+    - logo:
+        x: "img/clients/goldline.png"
+        _2x: "img/clients/goldline@2x.png"
+      alt: "Goldline"
+
+    - logo:
+        x: "img/clients/kanba.png"
+        _2x: "img/clients/kanba@2x.png"
+      alt: "Kanba"
+
+    - logo:
+        x: "img/clients/zoo-tv.png"
+        _2x: "img/clients/zoo-tv@2x.png"
+      alt: "Zoo"
+
+    - logo:
+        x: "img/clients/ztos.png"
+        _2x: "img/clients/ztos@2x.png"
+      alt: "Ztos"
+
+
+
+  works:
+    - title: "Gulf of Maine Ocean Warming Reports"
+      description: "The Gulf of Maine is one of the fastest warming regions on Earth. Using remote-sensing data and a datascience toolkit I publish reports on how temperatures are changing here, and build data resources to support GMRI's ecological research."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Recent Coverage"
+        URL: "https://gmri.org/stories/fall-2021-warming-update/"
+      image:
+        x: "img/works/Autumn_warming_screenshot.png"
+        _2x: "img/works/Autumn_warming_screenshot.png"
+      is_even: true"
+
+    - title: "Flood CamML"
+      description: "This application was built with a team of scientists during a code sprint event funded by Coastlines and People (COPE). The application uses NC travel camera feeds and machine learning models to monitor coastal flooding events."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Launch Application"
+        URL: "https://floodcamml.org/"
+      image:
+        x: "img/works/screencapture-floodcamml-org.png"
+        _2x: "img/works/screencapture-floodcamml-org.png"
+      is_even: false
+
+    
+
+# testimonial
+testimonial:
+  enable: false
+  title: "Testimonials"
+  items:
+  
+    - name: "Kathy Mills, PhD"
+      position: "Integrated Systems Ecology Lead, GMRI"
+      content: "Adam's work has..."
+      image:
+        x: "img/testimonials/justin.jpg"
+        _2x: "img/testimonials/justin.jpg"
+        
+    - name: "Andy Pershing, PhD"
+      position: "Director of Climate Science, Climate Central"
+      content: "Adam worked for me at GMRI..."
+      image:
+        x: "img/testimonials/chris.jpg"
+        _2x: "img/testimonials/chris.jpg"
+
+    - name: "Dave Reidmiller, PhD"
+      position: "Climate Center Direcor, GMRI"
+      content: "Adam provides the ____ for our climate communications..."
+      image:
+        x: "img/testimonials/mohana.jpg"
+        _2x: "img/testimonials/mohana.jpg"
+
+# contact
+contact:
+  enable: true
+  title: "Contact Adam"
+    
+  image:
+    x: "img/who-am-i/GMRI_headshot.jpeg"
+    _2x: "img/who-am-i/GMRI_headshot.jpeg"
+    
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:adamkemberling@gmail.com'
+    
+  phone:
+    title: "Phone Number"
+    number: "(443) 752-3905"
+  email:
+    title: "Email"
+    email: '<a href="mailto:adamkemberling@gmail.com">adamkemberling@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "--"
+  
+
+# newsletter
+newsletter:
+  enable: false
+  title: "Newsletter subscription"
+  success_message: "Successfully subscribed"
+  error_message: "Error while subscribing."
+  note: "We'll never share your email with anyone else."
